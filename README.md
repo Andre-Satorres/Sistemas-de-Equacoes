@@ -1,5 +1,4 @@
 # Sistemas de Equacoes
-## Programação Orientada a Objetos
 ## Trabalho de Tópicos em Orientação a Objetos em Linguagem C (4o Período / Informática Matutino)
 
 O propósito deste trabalho é escrever um programa em C para resolver sistemas de equações lineares com qualquer quantidade de equações pelo método de Gauss-Seidel. Para atingir este objetivo, explico abaixo como funciona o Método de Gaus Seidel Para resolver Sistemas de Equações Lineares:
