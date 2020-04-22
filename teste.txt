@@ -1,0 +1,51 @@
+1
+a + b = 2
+
+
+
+a=1 b=2 c=3 d=4 e=5 f=6 g=7
+arquivo, lista, matriz (for...), path, eqAtual, aInserir
+
+
+
+
+
+
+
+
+
+
+
+
+void insiraResultadoSPI(Lista* lis, char* resultado, int pos)
+{
+    int i;
+
+    No* atual = lis->inicio;
+
+    for(i=0; i<pos; i++)
+        if(atual->prox==NULL)
+            break;
+        else
+            atual = atual->prox;
+
+    atual->respostaEmSPI = resultado;
+}
+
+void exibirResultadosSPI(Lista lis)
+{
+    No* atual = lis.inicio;
+
+    printf("(");
+
+    while(atual!=NULL)
+    {
+        printf("%s = %.2f; ", atual->info, atual->respostaEmSPI);
+        atual = atual->prox;
+    }
+
+
+    printf(")");
+}
+
+
